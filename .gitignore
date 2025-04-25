@@ -2,6 +2,7 @@
 chroma_data/
 *.sqlite3
 *.bin
+*.pickle
 
 # Python
 __pycache__/
