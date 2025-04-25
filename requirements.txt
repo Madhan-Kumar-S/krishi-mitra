@@ -4,6 +4,9 @@ pydantic
 langchain
 langchain-core
 langchain-google-genai
+langchain-huggingface
+sentence-transformers
+torch
 google-cloud-speech
 google-cloud-texttospeech
 chromadb
@@ -12,7 +15,3 @@ python-dotenv
 google-generativeai
 beautifulsoup4
 requests
-langchain-google-vertexai
-langchain-community
-langchain_huggingface
-jq

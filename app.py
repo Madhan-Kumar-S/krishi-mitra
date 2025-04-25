@@ -41,7 +41,7 @@ config.set_envs()
 # Load documents and store embeddings
 json_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "myschemes_scraped.json")
 documents = document_processing.load_json_to_langchain_document_schema(json_file_path)
-chroma = store_embeddings(documents, config.EMBEDDINGS)
+chroma = store_embeddings(documents)
 retriever = chroma.as_retriever()
 
 class QueryRequest(BaseModel):
