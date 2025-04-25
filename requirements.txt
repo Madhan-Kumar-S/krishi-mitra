@@ -14,3 +14,5 @@ beautifulsoup4
 requests
 langchain-google-vertexai
 langchain-community
+langchain_huggingface
+
