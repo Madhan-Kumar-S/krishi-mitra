@@ -1,4 +1,5 @@
 from typing import Optional
+import os
 from langchain_google_vertexai import ChatVertexAI
 
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -23,7 +24,10 @@ def _initialize_llm(model: str) -> tuple[Optional[ChatGoogleGenerativeAI], Optio
         - An error message as a string if initialization fails, otherwise None.
     """
     try:
-        llm = ChatGoogleGenerativeAI(model=model)
+        llm = ChatGoogleGenerativeAI(
+            model=model,
+            google_api_key=os.getenv("GOOGLE_API_KEY")
+        )
         return llm, None
     except Exception as e:
         return None, str(e)
