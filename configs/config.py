@@ -14,7 +14,7 @@ load_dotenv()
 #os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = credentials_path
 #print("GOOGLE_APPLICATION_CREDENTIALS set to:", credentials_path)
 
-os.environ["GOOGLE_API_KEY"]="AIzaSyAXoIWl2lswnJxpE3srSx1DJak1uVNc0Ds"
+os.environ["GOOGLE_API_KEY"]="AIzaSyDg81GlH691EdsOlgH83hn8sf2z4HtHfkc"
 
 # Set USER_AGENT to identify requests
 os.environ["USER_AGENT"] = "KrishiMitra/1.0"

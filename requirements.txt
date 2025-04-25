@@ -16,4 +16,3 @@ langchain-google-vertexai
 langchain-community
 langchain_huggingface
 jq
-
