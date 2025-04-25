@@ -13,3 +13,4 @@ google-generativeai
 beautifulsoup4
 requests
 langchain-google-vertexai
+langchain-community
