@@ -14,10 +14,10 @@ def store_embeddings(documents: list[Document], embeddings: GoogleGenerativeAIEm
     try:
         vectorstore_web = Chroma.from_documents(
             documents=documents,
-            embedding=embeddings,
-            persist_directory="./chroma_data"  # Specify the directory to store data
+            embedding=embeddings
+            #persist_directory="./chroma_data"
+            # Removed persist_directory to use in-memory storage
         )
-        # Persistence is now automatic in Chroma 0.4.x+
         return vectorstore_web
     except Exception as e:
         raise Exception(f"""Error creating VectorStoreRetriever from Chroma DB: {e}""")
