@@ -17,4 +17,4 @@ beautifulsoup4
 requests
 langchain_community
 langchain-google-vertexai
-
+jq
