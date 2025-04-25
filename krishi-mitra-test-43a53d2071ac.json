@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "krishi-mitra-test",
+  "private_key_id": "43a53d2071ac92a92b6e14f97c5e946d40abdd47",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDMh/xpfZDQRVLE\npwLig5BVB+E97VvJwcsVe3NkSNknLpQ7TXQolr9r49xPYuUQXRadRkhPl8gGaZ+z\nfFkCgdTQ9MYGprIBOyvyAhHjEjA5AAVoCgKYKO3dJCRun4u5Anj0CNYABXdv+uUp\nQPhVEfJ+b4vZ/JIdSoNnz//BmXUdb80TQ+9/61PMZad7W8ggwry1a2ygjlOwPCdd\n7u1KlUn372MG2Wq3PIlCsWO01g2BB3JbY0LBNRVBJEofqn+Pho8uj6kLDFW5OGr+\n5IeBrtIw4PwiKLTQ+Q0CluwDIlg0mkaDoWFvMYPlntoMbEDT/h9NN5GEohBRZAwf\ndzaQpWfZAgMBAAECggEAFxe9fI2kVZeWJkTzEu8m0yruGAdeJzP9wYGsQCTne8CL\nFP0EQfbvSvexrrbsRQI1pPFEBdSNzYeMc//0rs9I34TbfPHCRFhReGQab+hkUHM7\nqQkETPjGDoNfp6vU40EvteHvg5Yaa6bIy/UddMFvfy4J/MVDHBKHLqfx6QJyEi4S\n6IMqx5cZkj7ElhHohhCwQ/RdXMbfdl0ixAn24LRvWQn197nvLtCZsVqLM7KyD/ed\noWDWT0efp8qv+CjQAeTYQgDmqs9xXSNQCDByZl9W0+BW7Yr9vl/gLUAigVdWT1Uk\n3hD6ou8MHplx9DPd2o/2WV9U6HXCGOazXbjb3Aj0rwKBgQD9hLCpwmlAGtoeFSLh\nyW8HnAfRzUAeElXKHqX38U7rPk+GqhPyTCfPRwHOxRe440C6Oqck+7uRDK3SqxTJ\n5oFHDEALgKdKbTAwBraHjphwyK8/nZ1smiB0zL2ZCs/xbQ/3PdbyV3RIA8nKetIZ\n6zg47t2vCcLrgNla53+bMMVAswKBgQDOiIkXQBkw1Frqo7xdaEoYZ5u1xYKvSThw\n5Gh/EsFphS6f8x2gYuxwJ6Z/h6mC75vvz9S+KKG802OjCRmEpYOf4IlnVlKQNzLd\nfQzInjZ/MADJ2+MG/ILytih9hmq8NfDQPiICUq+eQOKWHHIjgQGDccD04B0juCP/\n01WRwp8jQwKBgHqCgrSmZCI8V6ct45tksijlN8ok+5UMmzR/NwjoLZD0nY2f5t+x\n+ZLq5266Q8pu1zqnWVo/49YmYGFrlzIyF8rzmod0dmM6/IxY0iATworOEBIX4pk2\nqfSHdB/e37n1UD/UPGkD5gde/UbBr4Ii7xpkI/CQMQeJTn/lWv7txISNAoGAZt1n\n8jWRllldwtm0Go2zwb3wtrLdqPH983Q/e3La8/RKSY3rppM+kYmeCoyF59nxP5qy\nqddQ3twmFvCUThWlnf5WUSqUSpHDer8qm8z49ZXx/pfO1g70JXCGcCZ/iKgQ/ZbE\nl4WZRGeqsvsN+hLprw77/LqWqNCw1VzrlIJrgkMCgYAHah4vTjmvWzSsOvA0Fwnc\neEXBg0HI8QXO8hTcbU8NLybfqEGr9exiSmU2J8QgRdiZd+zFLBxpqupzJn0Ha2Uk\nTqz8yuSMInpgAW33QpVXOu/crs1Z6lxvCckwaM2NPhLDKsPu77TzLHW6jXBnBEby\nnhTnQP9MQZXaOk0MvRg7GA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "krishimi-mitra-test@krishi-mitra-test.iam.gserviceaccount.com",
+  "client_id": "104821872428077723545",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/krishimi-mitra-test%40krishi-mitra-test.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

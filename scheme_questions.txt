@@ -1,0 +1,239 @@
+1. Question: "Hi, I'm a small business owner in the powerloom sector. I heard there's a subsidy scheme for new machinery. What documents do I need to submit?"
+Scheme name: "Incentive Scheme for MSMEs in Powerloom Sector: State Capital Investment Subsidy"
+Attribute: "documents_required"
+
+2. Question: "My friend told me about a scheme that helps ST couples who marry within different sub-castes. What are the benefits?"
+Scheme name: "Incentive For The Intra Caste Marriage within Scheduled Tribe Community"
+Attribute: "benefits"
+
+3. Question: "I need to apply for funeral expense assistance for my Brahmin relative. What's the application process?"
+Scheme name: "Garuda Scheme for Funeral Expense"
+Attribute: "application_process"
+
+4. Question: "I'm interested in participating in government tenders through NSIC. What are the service charges for individual participation?"
+Scheme name: "Consortia and Tender Marketing Scheme"
+Attribute: "details"
+
+5. Question: "Can you tell me more about the Garuda Scheme? What are its main features?"
+Scheme name: "Garuda Scheme for Funeral Expense"
+Attribute: "details"
+
+6. Question: "I'm an ST person planning to marry someone from a different ST sub-caste. What's the income limit for eligibility?"
+Scheme name: "Incentive For The Intra Caste Marriage within Scheduled Tribe Community"
+Attribute: "eligibility"
+
+7. Question: "What's the annual fee structure for NSIC's tender marketing scheme for units with monetary limit up to ₹1 crore?"
+Scheme name: "Consortia and Tender Marketing Scheme"
+Attribute: "details"
+
+8. Question: "I want to know what documents are needed for the intra-caste marriage incentive scheme."
+Scheme name: "Incentive For The Intra Caste Marriage within Scheduled Tribe Community"
+Attribute: "documents_required"
+
+9. Question: "How much financial assistance is provided under the Garuda Scheme for funeral expenses?"
+Scheme name: "Garuda Scheme for Funeral Expense"
+Attribute: "benefits"
+
+10. Question: "What's the validity period for consortium agreements in the NSIC tender marketing scheme?"
+Scheme name: "Consortia and Tender Marketing Scheme"
+Attribute: "details"
+
+11. Question: "I'm a micro enterprise in the powerloom sector. When should I submit my first application for the capital investment subsidy?"
+Scheme name: "Incentive Scheme for MSMEs in Powerloom Sector: State Capital Investment Subsidy"
+Attribute: "application_process"
+
+12. Question: "What's the incentive amount for ST couples marrying within different sub-castes?"
+Scheme name: "Incentive For The Intra Caste Marriage within Scheduled Tribe Community"
+Attribute: "benefits"
+
+13. Question: "Do I need to provide any bank details for the Garuda Scheme application?"
+Scheme name: "Garuda Scheme for Funeral Expense"
+Attribute: "documents_required"
+
+14. Question: "What's the service charge percentage for consortia participation in NSIC tenders?"
+Scheme name: "Consortia and Tender Marketing Scheme"
+Attribute: "details"
+
+15. Question: "I'm planning to start a powerloom unit. What's the subsidy percentage available under the MSME scheme?"
+Scheme name: "Incentive Scheme for MSMEs in Powerloom Sector: State Capital Investment Subsidy"
+Attribute: "benefits"
+
+16. Question: "What's the time limit to apply for the intra-caste marriage incentive after marriage?"
+Scheme name: "Incentive For The Intra Caste Marriage within Scheduled Tribe Community"
+Attribute: "eligibility"
+
+17. Question: "Is there any special benefit for micro units in the NSIC tender marketing scheme?"
+Scheme name: "Consortia and Tender Marketing Scheme"
+Attribute: "details"
+
+18. Question: "What documents are needed to prove my eligibility for the powerloom subsidy?"
+Scheme name: "Incentive Scheme for MSMEs in Powerloom Sector: State Capital Investment Subsidy"
+Attribute: "documents_required"
+
+19. Question: "Can you tell me about the eligibility criteria for the Garuda Scheme?"
+Scheme name: "Garuda Scheme for Funeral Expense"
+Attribute: "eligibility"
+
+20. Question: "What's the process for forming a consortium under the NSIC tender marketing scheme?"
+Scheme name: "Consortia and Tender Marketing Scheme"
+Attribute: "details"
+
+21. Question: "I need to know the income criteria for the Garuda Scheme."
+Scheme name: "Garuda Scheme for Funeral Expense"
+Attribute: "eligibility"
+
+22. Question: "What's the validity period of the powerloom subsidy scheme?"
+Scheme name: "Incentive Scheme for MSMEs in Powerloom Sector: State Capital Investment Subsidy"
+Attribute: "details"
+
+23. Question: "Do I need to provide any caste certificates for the intra-caste marriage scheme?"
+Scheme name: "Incentive For The Intra Caste Marriage within Scheduled Tribe Community"
+Attribute: "documents_required"
+
+24. Question: "What's the process for spot verification in the intra-caste marriage scheme?"
+Scheme name: "Incentive For The Intra Caste Marriage within Scheduled Tribe Community"
+Attribute: "application_process"
+
+25. Question: "Is there any special consideration for SC/ST entrepreneurs in the NSIC scheme?"
+Scheme name: "Consortia and Tender Marketing Scheme"
+Attribute: "details"
+
+26. Question: "What documents are needed to prove my residence for the Garuda Scheme?"
+Scheme name: "Garuda Scheme for Funeral Expense"
+Attribute: "documents_required"
+
+27. Question: "How do I check my application status for the intra-caste marriage scheme?"
+Scheme name: "Incentive For The Intra Caste Marriage within Scheduled Tribe Community"
+Attribute: "application_process"
+
+28. Question: "What's the process for downloading the acknowledgement slip for the Garuda Scheme?"
+Scheme name: "Garuda Scheme for Funeral Expense"
+Attribute: "application_process"
+
+29. Question: "Do I need to provide any project report for the powerloom subsidy?"
+Scheme name: "Incentive Scheme for MSMEs in Powerloom Sector: State Capital Investment Subsidy"
+Attribute: "documents_required"
+
+30. Question: "What's the process for fixing tender participation limits in the NSIC scheme?"
+Scheme name: "Consortia and Tender Marketing Scheme"
+Attribute: "details"
+
+31. Question: "I need to know if I'm eligible for the powerloom subsidy based on my unit's location."
+Scheme name: "Incentive Scheme for MSMEs in Powerloom Sector: State Capital Investment Subsidy"
+Attribute: "eligibility"
+
+32. Question: "What documents are needed to prove the death of a relative for the Garuda Scheme?"
+Scheme name: "Garuda Scheme for Funeral Expense"
+Attribute: "documents_required"
+
+33. Question: "How do I register for the intra-caste marriage scheme online?"
+Scheme name: "Incentive For The Intra Caste Marriage within Scheduled Tribe Community"
+Attribute: "application_process"
+
+34. Question: "What's the process for consortium formation under the NSIC scheme?"
+Scheme name: "Consortia and Tender Marketing Scheme"
+Attribute: "details"
+
+35. Question: "Do I need to provide any bank statements for the powerloom subsidy?"
+Scheme name: "Incentive Scheme for MSMEs in Powerloom Sector: State Capital Investment Subsidy"
+Attribute: "documents_required"
+
+36. Question: "What's the process for getting the incentive amount in the intra-caste marriage scheme?"
+Scheme name: "Incentive For The Intra Caste Marriage within Scheduled Tribe Community"
+Attribute: "application_process"
+
+37. Question: "Is there any special benefit for SC/ST units in the powerloom subsidy scheme?"
+Scheme name: "Incentive Scheme for MSMEs in Powerloom Sector: State Capital Investment Subsidy"
+Attribute: "details"
+
+38. Question: "What documents are needed to prove my relationship with the deceased for the Garuda Scheme?"
+Scheme name: "Garuda Scheme for Funeral Expense"
+Attribute: "documents_required"
+
+39. Question: "How do I calculate my tender participation limit in the NSIC scheme?"
+Scheme name: "Consortia and Tender Marketing Scheme"
+Attribute: "details"
+
+40. Question: "What's the process for getting the funeral expense assistance?"
+Scheme name: "Garuda Scheme for Funeral Expense"
+Attribute: "application_process"
+
+41. Question: "Do I need to provide any income certificates for the powerloom subsidy?"
+Scheme name: "Incentive Scheme for MSMEs in Powerloom Sector: State Capital Investment Subsidy"
+Attribute: "documents_required"
+
+42. Question: "What's the process for consortium renewal in the NSIC scheme?"
+Scheme name: "Consortia and Tender Marketing Scheme"
+Attribute: "details"
+
+43. Question: "How do I prove my eligibility for the intra-caste marriage scheme?"
+Scheme name: "Incentive For The Intra Caste Marriage within Scheduled Tribe Community"
+Attribute: "eligibility"
+
+44. Question: "What documents are needed for the powerloom subsidy application?"
+Scheme name: "Incentive Scheme for MSMEs in Powerloom Sector: State Capital Investment Subsidy"
+Attribute: "documents_required"
+
+45. Question: "Is there any special consideration for women entrepreneurs in the NSIC scheme?"
+Scheme name: "Consortia and Tender Marketing Scheme"
+Attribute: "details"
+
+46. Question: "What's the process for getting the funeral expense assistance in the Garuda Scheme?"
+Scheme name: "Garuda Scheme for Funeral Expense"
+Attribute: "application_process"
+
+47. Question: "How do I track my application status for the powerloom subsidy?"
+Scheme name: "Incentive Scheme for MSMEs in Powerloom Sector: State Capital Investment Subsidy"
+Attribute: "application_process"
+
+48. Question: "What documents are needed to prove my caste for the intra-caste marriage scheme?"
+Scheme name: "Incentive For The Intra Caste Marriage within Scheduled Tribe Community"
+Attribute: "documents_required"
+
+49. Question: "Is there any special benefit for micro enterprises in the NSIC scheme?"
+Scheme name: "Consortia and Tender Marketing Scheme"
+Attribute: "details"
+
+50. Question: "What's the process for getting the incentive amount in the powerloom subsidy?"
+Scheme name: "Incentive Scheme for MSMEs in Powerloom Sector: State Capital Investment Subsidy"
+Attribute: "application_process"
+
+51. Question: "Do I need to provide any bank details for the intra-caste marriage scheme?"
+Scheme name: "Incentive For The Intra Caste Marriage within Scheduled Tribe Community"
+Attribute: "documents_required"
+
+52. Question: "What's the validity period of the consortium agreement in the NSIC scheme?"
+Scheme name: "Consortia and Tender Marketing Scheme"
+Attribute: "details"
+
+53. Question: "How do I prove my residence for the Garuda Scheme?"
+Scheme name: "Garuda Scheme for Funeral Expense"
+Attribute: "documents_required"
+
+54. Question: "What's the process for getting the subsidy amount in the powerloom scheme?"
+Scheme name: "Incentive Scheme for MSMEs in Powerloom Sector: State Capital Investment Subsidy"
+Attribute: "application_process"
+
+55. Question: "Do I need to provide any income certificates for the intra-caste marriage scheme?"
+Scheme name: "Incentive For The Intra Caste Marriage within Scheduled Tribe Community"
+Attribute: "documents_required"
+
+56. Question: "What's the process for consortium formation in the NSIC scheme?"
+Scheme name: "Consortia and Tender Marketing Scheme"
+Attribute: "details"
+
+57. Question: "How do I track my application status for the Garuda Scheme?"
+Scheme name: "Garuda Scheme for Funeral Expense"
+Attribute: "application_process"
+
+58. Question: "What documents are needed to prove my eligibility for the powerloom subsidy?"
+Scheme name: "Incentive Scheme for MSMEs in Powerloom Sector: State Capital Investment Subsidy"
+Attribute: "documents_required"
+
+59. Question: "Is there any special benefit for women entrepreneurs in the intra-caste marriage scheme?"
+Scheme name: "Incentive For The Intra Caste Marriage within Scheduled Tribe Community"
+Attribute: "details"
+
+60. Question: "What's the process for getting the funeral expense assistance in the Garuda Scheme?"
+Scheme name: "Garuda Scheme for Funeral Expense"
+Attribute: "application_process" 
