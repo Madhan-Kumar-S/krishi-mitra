@@ -1,5 +1,7 @@
 from typing import Optional
 import os
+import time
+import logging
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import (
     ChatPromptTemplate,
@@ -11,10 +13,11 @@ from langchain_core.output_parsers import StrOutputParser
 from processing.documents import format_documents
 from langchain_core.vectorstores import VectorStoreRetriever
 
+logger = logging.getLogger(__name__)
 
 def _initialize_llm(model: str) -> tuple[Optional[ChatGoogleGenerativeAI], Optional[str]]:
     """
-    Initializes the LLM instance.
+    Initializes the LLM instance with rate limiting.
 
     Returns:
         A tuple containing:
@@ -24,10 +27,13 @@ def _initialize_llm(model: str) -> tuple[Optional[ChatGoogleGenerativeAI], Optio
     try:
         llm = ChatGoogleGenerativeAI(
             model=model,
-            google_api_key=os.getenv("GOOGLE_API_KEY")
+            google_api_key=os.getenv("GOOGLE_API_KEY"),
+            max_retries=3,  # Add retries for rate limits
+            temperature=0.7  # Adjust as needed
         )
         return llm, None
     except Exception as e:
+        logger.error(f"Error initializing LLM: {str(e)}")
         return None, str(e)
 
 

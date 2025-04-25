@@ -4,7 +4,10 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_core.vectorstores import VectorStoreRetriever
 from typing import Optional
 from langchain.schema import Document
+import time
+import logging
 
+logger = logging.getLogger(__name__)
 
 def store_embeddings(documents: list[Document], embeddings: GoogleGenerativeAIEmbeddings) -> Optional[Chroma]:
     """
@@ -12,12 +15,33 @@ def store_embeddings(documents: list[Document], embeddings: GoogleGenerativeAIEm
     Returns the Chroma vectorstore object.
     """
     try:
-        vectorstore_web = Chroma.from_documents(
-            documents=documents,
-            embedding=embeddings
-            #persist_directory="./chroma_data"
-            # Removed persist_directory to use in-memory storage
-        )
-        return vectorstore_web
+        # Process documents in smaller batches to avoid quota limits
+        batch_size = 10  # Adjust based on your quota limits
+        vectorstore = None
+        
+        for i in range(0, len(documents), batch_size):
+            batch = documents[i:i + batch_size]
+            try:
+                if vectorstore is None:
+                    vectorstore = Chroma.from_documents(
+                        documents=batch,
+                        embedding=embeddings
+                    )
+                else:
+                    vectorstore.add_documents(batch)
+                
+                # Add delay between batches to respect rate limits
+                time.sleep(1)  # Adjust delay as needed
+                
+            except Exception as e:
+                logger.error(f"Error processing batch {i//batch_size + 1}: {str(e)}")
+                if "quota" in str(e).lower():
+                    # If we hit quota limit, wait longer before retrying
+                    time.sleep(5)
+                    continue
+                raise
+        
+        return vectorstore
     except Exception as e:
+        logger.error(f"Error creating VectorStoreRetriever from Chroma DB: {e}")
         raise Exception(f"""Error creating VectorStoreRetriever from Chroma DB: {e}""")
