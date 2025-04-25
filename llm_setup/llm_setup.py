@@ -2,6 +2,7 @@ from typing import Optional
 import os
 import time
 import logging
+import random
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import (
     ChatPromptTemplate,
@@ -17,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 def _initialize_llm(model: str) -> tuple[Optional[ChatGoogleGenerativeAI], Optional[str]]:
     """
-    Initializes the LLM instance with rate limiting.
+    Initializes the LLM instance with rate limiting and retry logic.
 
     Returns:
         A tuple containing:
@@ -28,8 +29,11 @@ def _initialize_llm(model: str) -> tuple[Optional[ChatGoogleGenerativeAI], Optio
         llm = ChatGoogleGenerativeAI(
             model=model,
             google_api_key=os.getenv("GOOGLE_API_KEY"),
-            max_retries=3,  # Add retries for rate limits
-            temperature=0.7  # Adjust as needed
+            max_retries=3,
+            temperature=0.7,
+            # Add rate limiting parameters
+            request_timeout=60,  # Increase timeout
+            max_concurrency=1,   # Limit concurrent requests
         )
         return llm, None
     except Exception as e:
