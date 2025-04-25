@@ -1,7 +1,5 @@
 from typing import Optional
 import os
-from langchain_google_vertexai import ChatVertexAI
-
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import (
     ChatPromptTemplate,
