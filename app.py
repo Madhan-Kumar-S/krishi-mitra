@@ -24,6 +24,13 @@ app.add_middleware(
         "http://localhost:19000",  # React Native development server alternative
         "exp://localhost:19000",   # Expo development
         "exp://localhost:19006",   # Expo development alternative
+        "http://localhost:3000",   # Common React development port
+        "http://localhost:8080",   # Common development port
+        "http://127.0.0.1:3000",   # Local IP React development
+        "http://127.0.0.1:8080",   # Local IP development
+        "http://192.168.0.0/16",   # Local network range
+        "http://10.0.0.0/8",       # Local network range
+        "http://172.16.0.0/12",    # Local network range
         "https://your-production-app-url.com"  # Replace with your production app URL
     ],
     allow_credentials=True,
